@@ -8,6 +8,9 @@ import com.gujs.akka.akkaActor.part2.{Device, DeviceGroup, DeviceManager}
 import org.scalatest.time.SpanSugar.convertIntToGrainOfTime
 import org.scalatest.wordspec.AnyWordSpecLike
 
+import scala.math.BigDecimal.RoundingMode
+import scala.util.Random
+
 class DeviceSpec extends ScalaTestWithActorTestKit with AnyWordSpecLike {
   "my Device actor" must {
 
@@ -265,6 +268,13 @@ class DeviceSpec extends ScalaTestWithActorTestKit with AnyWordSpecLike {
       println(deviceActor4)
 
 
+    }
+    "cesi2" in {
+      for (i <- 0 to 10) {
+        println(Random.nextDouble())
+        println(BigDecimal(Random.between(20d,500d)).setScale(0,RoundingMode.HALF_UP))
+
+      }
     }
   }
 }
