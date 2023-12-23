@@ -22,4 +22,5 @@ libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-compiler" % "2.9.1",
   "org.scala-lang" % "scala-reflect" % "2.9.1",
   "org.scala-lang" % "scala-library" % "2.9.1",
+  "org.apache.pdfbox" % "pdfbox" % "2.0.26"
 )

@@ -9,10 +9,10 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
-      <excludeFolder url="file://$MODULE_DIR$/../../project/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: scala-sdk-2.13.8" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: com.typesafe.akka:akka-actor-testkit-typed_2.13:2.6.19:jar" level="project" />
@@ -21,7 +21,10 @@
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-slf4j_2.13:2.6.19:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: com.typesafe.akka:akka-testkit_2.13:2.6.19:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe:config:1.4.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-logging:commons-logging:1.2:jar" level="project" />
     <orderEntry type="library" name="sbt: net.java.dev.jna:jna:5.9.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.pdfbox:fontbox:2.0.26:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.pdfbox:pdfbox:2.0.26:jar" level="project" />
     <orderEntry type="library" name="sbt: org.jline:jline:3.21.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-java8-compat_2.13:1.0.0:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang.modules:scala-xml_2.13:2.0.1:jar" level="project" />
