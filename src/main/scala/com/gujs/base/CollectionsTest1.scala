@@ -3,15 +3,6 @@ package com.gujs.base
 import scala.:+
 
 object CollectionsTest1 extends App {
-  val seq = Seq(Seq(1,2), Seq(5,6), Seq(11,21))
-
-  val seqResult = seq.foldLeft(Seq(Seq.empty[Int])) { (acc, elem) =>
-    acc.flatMap(innerSeq => elem.flatMap(innerElem => Seq(innerSeq.appended(innerElem) )))
-  }
-
-  println(seqResult)
-
-  Seq(Seq(1,5),Seq(2,5),Seq(1,6),Seq(2,6))
 
   (0 to 30).foreach(n => println(n % 10 + 1))
   val nums1 = List.range(0, 10)
